@@ -92,7 +92,7 @@ const FocusProblemSection: React.FC = () => (
       <h2 className="text-3xl sm:text-4xl font-bold mb-2">The <span className={ACCENT_COLOR_CLASS}>Focus Problem</span></h2>
       <p className="text-lg text-gray-600 mb-12">Why is it harder than ever to focus?</p>
       <div className="flex flex-col md:flex-row justify-center items-stretch gap-8">
-        <FeatureCard icon={ListChecks} title="Endless Distractions" description="Your phone is the easiest place to get distracted. Constant notifications pull your attention away." delay={200} />
+        <FeatureCard icon={ListChecks} title="Endless Distractions" description="When using your pc, you are highly likely to get distracted. Constant notifications pull your attention away." delay={200} />
         <FeatureCard icon={Clock} title="Short Attention Span" description="The digital age has rewired our brains for instant gratification, making deep focus increasingly difficult." delay={400} />
         <FeatureCard icon={Zap} title="Lost Awareness" description="The impossible part? We don't realize we're distracted, while already distracted. MOM OS brings awareness back." delay={600} />
       </div>
@@ -345,7 +345,7 @@ const PricingSection = () => {
             </div>
             <ul className="space-y-4 mb-8">
               <li className="flex items-center gap-3 text-sm text-gray-600"><Check size={16} className="text-gray-400"/> Manual Blocking</li>
-              <li className="flex items-center gap-3 text-sm text-gray-600"><Check size={16} className="text-gray-400"/> 3 Sessions / Day</li>
+              
               <li className="flex items-center gap-3 text-sm text-gray-600"><Check size={16} className="text-gray-400"/> Basic Stats</li>
               <li className="flex items-center gap-3 text-sm text-gray-400 line-through"><X size={16}/> No Live Nudges</li>
             </ul>
@@ -368,7 +368,7 @@ const PricingSection = () => {
               <p className="text-sm text-gray-500 mt-2">Full automation & intelligence.</p>
             </div>
             <ul className="space-y-4 mb-8">
-              <li className="flex items-center gap-3 text-sm font-medium text-gray-900"><div className="p-1 bg-orange-100 rounded-full text-orange-600"><Zap size={12}/></div> Unlimited Sessions</li>
+              
               <li className="flex items-center gap-3 text-sm font-medium text-gray-900"><div className="p-1 bg-orange-100 rounded-full text-orange-600"><Zap size={12}/></div> Smart Nudges</li>
               <li className="flex items-center gap-3 text-sm font-medium text-gray-900"><div className="p-1 bg-orange-100 rounded-full text-orange-600"><Zap size={12}/></div> Flow State Guard</li>
               <li className="flex items-center gap-3 text-sm font-medium text-gray-900"><div className="p-1 bg-orange-100 rounded-full text-orange-600"><Zap size={12}/></div> Advanced Analytics</li>
